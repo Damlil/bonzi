@@ -75,7 +75,7 @@ button {
 body {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 90vh;
     background-image: url(../bonzi/assets/photos/03-night.jpg);
     background-position: center;
 
@@ -142,3 +142,25 @@ footer {
 footer p {
     color: green;
 }
+
+
+@media screen and (max-width: 700px) {
+    footer {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    img {
+        margin: auto;
+        justify-content: center;
+        width: 300px;
+        height: 200px;
+    }
+    .card {
+        margin-bottom: 5rem
+    }
+    }
+    .card-1 {
+        margin-bottom: 5rem
+    }
+    

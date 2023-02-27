@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.topMenu {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color:  #4A7053;;
+}
+#contact {
+    grid-column: 4/ span 1;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    background-color: #4A7053;;
+    text-align: center;
+}
+.icons {
+    display: flex;
+    grid-column: 2 /span 1;
+    background-color: #4A7053;
+    justify-content: center;
+    vertical-align: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.fa-brands {
+    background-color: #4A7053;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.secondMenu {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(8,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background: rgba(11, 11, 11, 1);
+}
+.topDetails {
+    grid-column: 7/ span 1;
+    text-align: center;
+    background: 0;
+    background:0;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: auto;
+}
+.topDetails-1 {
+    grid-column: 8/ span 1;
+    text-align: center;
+    background:0;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: auto;
+}
+#bonz {
+    grid-column: 4 / span 1;
+    background: 0;
+    margin: auto;
+}
+.logo {
+    height: 100px;
+    width: 90px;
+    margin: auto;
+    background: 0;
+}
+input {
+    display: flex;
+    grid-column: 2/ span 2;
+    height: 100px;
+    font-size: 22px;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+}
+.bookingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+img {
+    width: 200px;
+}
+.roomContainer {
+    width: 550px;
+    margin-bottom: 2rem;
+}
+.roomCard {
+    display: flex;
+    padding: 0.5rem;
+    background-color: #D9D9D9;
+    margin: 1rem;
+    border-radius: .5rem;
+
+}
+.roomCard p {
+    padding: 0.1rem;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background: #D9D9D9;
+    
+}
+
+.roomInfo {
+    background: #D9D9D9;
+}
+#price {
+    color: red;
+}
+
+@media screen and (max-width: 700px) {
+
+    .roomContainer {
+        width: 400px;
+    }
+
+
+    }
+    

@@ -21,3 +21,35 @@
     color: #FFFFFF;
 }
 
+button {
+    background: #FF8744;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+p {
+    padding: 0.1rem;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background: #D9D9D9;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    background-color: #4A7053;;
+    text-align: center;
+}
